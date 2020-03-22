@@ -105,7 +105,7 @@ Zuerst habe ich Vagrant auf [dieser Webseite](https://www.vagrantup.com/ "vagran
     ``` 
 4. Die VM ist nun bereit und kann mit SSH-Zugriff bedient werden:
     ```Shell
-      $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\virtual boxen     #Zum Verzeichnis der VM wechseln
+      $ cd C:\Users\djord\Documents\Modul_300\MeinLokalesRepository\M300-Services\virtual boxen     #Zum Verzeichnis der VM wechseln
       $ vagrant ssh                       #SSH-Verbindung zur VM aufbauen
      ```
 
@@ -175,7 +175,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 1. Terminal öffnen
 2. Ordner für Repository erstellen:
     ```Shell
-      $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\virtual boxen
+      $ cd C:\Users\djord\Documents\Modul_300\MeinLokalesRepository\M300-Services\virtual boxen
       $ mkdir githublb2
      ```
 3. Repository mit SSH klonen:
@@ -198,7 +198,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 
 1.  Folgenden Befehl mit der Account-E-Mail von GitHub in Bash einfügen:
     ```Shell
-      $  ssh-keygen -t rsa -b 4096 -C "arun.shanmuganathan@edu.tbz.ch"
+      $  ssh-keygen -t rsa -b 4096 -C "djordje.stojanovic@edu.tbz.ch"
     ```
 2. Neuer SSH-Key wird erstellt:
     ```Shell
