@@ -93,9 +93,9 @@ Zuerst habe ich Vagrant auf [dieser Webseite](https://www.vagrantup.com/ "vagran
 1. Terminal öffnen
 2. Einen neuen Ordner für die VM anlegen:
     ```Shell
-      $ cd C:\Users\djord\Documents\Modul_300\MeinLokalesRepository\M300-Services
-      $ mkdir virtual boxen
-      $ cd virtual boxen
+      $ cd C:\Users\djord\Documents\Modul_300
+      $ mkdir myserver
+      $ cd myserver
     ``` 
 3. Vagrantfile erzeugen, VM erstellen und starten:
     ```Shell
@@ -105,7 +105,7 @@ Zuerst habe ich Vagrant auf [dieser Webseite](https://www.vagrantup.com/ "vagran
     ``` 
 4. Die VM ist nun bereit und kann mit SSH-Zugriff bedient werden:
     ```Shell
-      $ cd C:\Users\djord\Documents\Modul_300\MeinLokalesRepository\M300-Services\virtual boxen     #Zum Verzeichnis der VM wechseln
+      $ cd C:\Users\djord\Documents\Modul_300\myserver     #Zum Verzeichnis der VM wechseln
       $ vagrant ssh                       #SSH-Verbindung zur VM aufbauen
      ```
 
@@ -114,7 +114,7 @@ Zuerst habe ich Vagrant auf [dieser Webseite](https://www.vagrantup.com/ "vagran
 1. Terminal öffnen
 2. In das M300-Verzeichnis wechseln:
     ```Shell
-      $ cd C:\Users\djord\Documents\Modul_300\MeinLokalesRepository\M300-Services\virtual boxen
+      $ cd C:\Users\djord\Documents\Modul_300
      ```
 3. VM erstellen und starten:
     ```Shell
@@ -175,8 +175,8 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 1. Terminal öffnen
 2. Ordner für Repository erstellen:
     ```Shell
-      $ cd C:\Users\djord\Documents\Modul_300\MeinLokalesRepository\M300-Services\virtual boxen
-      $ mkdir githublb2
+      $ cd C:\Users\djord\Documents\Modul_300
+      $ mkdir MeinLokalesRepository
      ```
 3. Repository mit SSH klonen:
     ```Shell
